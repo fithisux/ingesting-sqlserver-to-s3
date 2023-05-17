@@ -6,7 +6,6 @@ from airflow_client.client.api import dag_api, dag_run_api
 from airflow_client.client.model.dag import DAG
 from airflow_client.client.model.dag_run import DAGRun
 
-
 def run_dag(dag_id: str):
     configuration = airflow_client.client.Configuration(host="http://localhost:8080/api/v1", username="airflow", password="airflow")
     with airflow_client.client.ApiClient(configuration) as api_client:
