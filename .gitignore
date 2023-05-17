@@ -1,4 +1,4 @@
-.idea/
+.idea/ignore
 s3data/
 logs/
 s3logs/
